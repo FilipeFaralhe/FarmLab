@@ -1,7 +1,10 @@
 import styled  from 'styled-components';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import background from '../../assets/img/imgSign.png'
+=======
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
@@ -14,7 +17,12 @@ export const Container = styled.div `
   align-items: stretch;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #E6E6F0; 
+=======
+  background-color: #E6E6F0;
+  
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
   background-color: #E6E6F0;
   
@@ -29,7 +37,11 @@ export const Content = styled.div`
   width: 100%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   max-width: 700px;
+=======
+  max-width: 600px;
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
   max-width: 600px;
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
@@ -41,6 +53,7 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -58,6 +71,8 @@ export const LogoContainer = styled.div `
 =======
 =======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
+=======
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
   
   z-index: 1;
   position: relative;
@@ -72,6 +87,9 @@ export const LogoContainer = styled.div `
   & + img {
     width: 30rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
+=======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
@@ -88,6 +106,7 @@ export const Form = styled.form `
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const Cadastro = styled.p `
   font-size: 2rem;
   color: #000;  
@@ -101,6 +120,8 @@ export const Background = styled.img`
   flex: 1;
   background-image: url(${background});
 =======
+=======
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 /* #formLogin-content button {
@@ -139,6 +160,9 @@ export const Background = styled.img`
   flex: 1;
   background-image: url('../../assets/img/imgSign.png');
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
+=======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
@@ -148,7 +172,11 @@ export const Background = styled.img`
   fill-opacity: inherit;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 `
+=======
+} */
+>>>>>>> 810040f85fbad04930373d957fa46101aef8a360
 =======
 } */
 >>>>>>> 810040f85fbad04930373d957fa46101aef8a360
