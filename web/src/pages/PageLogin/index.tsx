@@ -1,16 +1,16 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import Logo from '../../assets/img/logo.png'
-
 import Submit from '../../assets/img/icons/SubmitLogin.png';
 
-import { Container, Content, LogoContainer, Form, Cadastro, Background} from './styles';
+import { Container, Content, LogoContainer, Form, LinkStyled, Background} from './styles';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 /* import Submit from '../../assets/img/icons/SubmitLogin.png'; */
 
-function PageLogin() {
+const PageLogin: React.FC = () => {
 	return(
 		<Container>
 			<Content className="contaier">
@@ -33,7 +33,7 @@ function PageLogin() {
 						Entrar
 					</Button>
 				</Form>
-					<Cadastro id="cadastre">Não tem uma conta? <a href="/">Cadastre-se agora</a> </Cadastro>
+					<LinkStyled id="cadastre">Não tem uma conta? <Link to="/Register">Cadastre-se agora</Link> </LinkStyled>
 			</Content>
 				<Background id="background" />
     </Container>

@@ -7,7 +7,7 @@ export const StyledInput = styled.input `
   width:  35rem;
   height: 5rem;
 
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
   padding: 0 4.5rem;
   
   border: none;
@@ -18,14 +18,15 @@ export const StyledInput = styled.input `
   
   ${props => props.id === 'email' && css `
     background: url(${ImgUser}) no-repeat;
-    background-position: 5px;
+    background-position: 6px;
   `}
 
-  ${props => props.id === 'email' && css `
+/*   ${props => props.id === 'email' && css `
     background: url(${ImgUser}) no-repeat;
-  `}
+  `} */
   
   ${props => props.id === 'password' && css `
     background: url(${ImgPassowrd}) no-repeat;
+    background-position: 6px;
   `}
 `

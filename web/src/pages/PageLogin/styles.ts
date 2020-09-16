@@ -12,7 +12,7 @@ export const Container = styled.div `
 
 export const Content = styled.div`
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,14 +22,15 @@ export const Content = styled.div`
 `;
 
 export const LogoContainer = styled.div `
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;/*5 rem*/
   text-align: center;
 
   & > img {
-    width: 25rem;
+    width: 25rem;/*25rem*/
     z-index: 1;
     position: relative;
     background-color:#E6E6F0;
+  } 
 `;
 
 export const Form = styled.form ` 
@@ -40,9 +41,10 @@ export const Form = styled.form `
   justify-content: center;
 `;
 
-export const Cadastro = styled.p `
+export const LinkStyled = styled.p `
   font-size: 2rem;
   color: #000;  
+  margin: 2.5rem;
 
   & > a {
     color: #000;
@@ -54,6 +56,6 @@ export const Background = styled.img`
   background-image: url(${background});
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(1.5px);
+  filter: blur(0.8px);
   fill-opacity: inherit;
 `;
